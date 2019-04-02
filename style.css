@@ -1,0 +1,65 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+    background: #c7c3c3;
+  }
+
+  h1 {
+    color: rgb(60, 179, 186);
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  h3 {
+    color: rgb(60, 179, 186);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+nav, .navbar-default {
+    background-color: white;
+    border-color: #E7E7E7;
+}
+
+nav, .navbar-default .navbar-brand {
+    color: white;
+} 
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: rgb(60, 60, 60);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: lightgrey;
+}
+
+
+div.media-left {
+	margin-right: 20px;
+}
+
+
+div.jumbotron {
+  color:rgb(60, 60, 60);
+  background-color: white;
+  position: relative;
+  top: 50px;
+  border: 3px solid white;
+}
+
+
+  
+  /* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+   /* @media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+
