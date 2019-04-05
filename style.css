@@ -72,3 +72,7 @@ img.media-object {
   text-align: center;
   float: left;
 }
+
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
